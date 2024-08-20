@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
+	font-family: "Helvetica now", "Public Sans",sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh;	
     background-color: #f4f4f4;
 }
+
 
 .container {
     display: flex;
@@ -69,4 +71,24 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: white;
+}
+
+button.jsoneditor-button.jsoneditor-contextmenu-button{
+	display: none
+}
+button.jsoneditor-button.jsoneditor-dragarea{
+	display: none
+}
+table.jsoneditor-tree colgroup{
+	display: none
+}
+ tr.jsoneditor-expandable.jsoneditor-expanded{
+	 height: 8px !important;
+ }
+ 
+#jsonTree .different_element {
+  background-color: #acee61;
+}
+#jsonTree .different_element div.jsoneditor-field, #jsonTree .different_element div.jsoneditor-value {
+  color: red;
 }

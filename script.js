@@ -12,7 +12,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
 		}
         // Create a JSON editor instance
         const editor = new JSONEditor(container, {
-            mode: 'preview',
+            mode: 'tree',
 			modes: ['code', 'tree','view','text','preview'],
             mainMenuBar: true,
             navigationBar: true,
