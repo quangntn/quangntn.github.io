@@ -26,10 +26,13 @@ body {
     flex-direction: column;
 }
 
-.input-section {
-    border-right: 1px solid #ccc;
-}
+--.input-section {
+--    border-right: 1px solid #ccc;
+--}
 
+.output-section {
+	padding: 20px 20px 20px 0px;
+}
 h2 {
     margin-top: 0;
 }
