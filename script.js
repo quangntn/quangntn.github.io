@@ -1,5 +1,11 @@
 
 document.getElementById('convertButton').addEventListener('click', function() {
+	gtag('event', 'click', {
+        'event_category': 'button',
+        'event_label': 'Convert_to_json_tree',
+        'value': 1
+    });
+	
     const inputText = document.getElementById('inputText').value;
     const container = document.getElementById('jsonTree');
     container.innerHTML = ""; // Clear previous content
